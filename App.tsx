@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Play, Rocket } from 'lucide-react';
-import Editor from './components/Editor';
-import StatsPanel from './components/StatsPanel';
-import Preview from './components/Preview';
-import { analyzeHtml } from './utils/textAnalysis';
-import { generateSeoSuggestions } from './services/geminiService';
-import { HTMLStats, AISuggestions, ViewMode } from './types';
+import Editor from './components/Editor.tsx';
+import StatsPanel from './components/StatsPanel.tsx';
+import Preview from './components/Preview.tsx';
+import { analyzeHtml } from './utils/textAnalysis.ts';
+import { generateSeoSuggestions } from './services/geminiService.ts';
+import { HTMLStats, AISuggestions, ViewMode } from './types.ts';
 
 // Default HTML template for better initial UX
 const DEFAULT_HTML = `<!DOCTYPE html>

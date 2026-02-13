@@ -1,4 +1,4 @@
-import { HTMLStats } from '../types';
+import { HTMLStats } from '../types.ts';
 
 export const countSyllables = (word: string): number => {
   word = word.toLowerCase();

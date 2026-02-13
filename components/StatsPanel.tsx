@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { HTMLStats, AISuggestions } from '../types';
+import { HTMLStats, AISuggestions } from '../types.ts';
 import { Wand2, Loader2, AlertCircle, CheckCircle2, Palette } from 'lucide-react';
 
 interface StatsPanelProps {
